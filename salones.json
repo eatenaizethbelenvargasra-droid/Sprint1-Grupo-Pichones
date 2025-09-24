@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Salón Estrellitas",
+    "telefono": "+591 73097977",
+    "imagen": "imagensalones/SalonEstrellitas.jpg",
+    "maps": "https://maps.app.goo.gl/rb8swGawEhhoS9eaA",
+    "direccion": "Carr. a Viacha, C. 137, El Alto"
+  },
+  {
+    "nombre": "Salón Fantasía",
+    "telefono": "+591 68071787",
+    "imagen": "imagensalones/SalonInfantilFantasia.jpg",
+    "maps": "https://maps.app.goo.gl/iKZoWAb9Lu7pTrra7",
+    "direccion": "Av. 16 de Julio, Balboa Garcia, El Alto"
+  },
+  {
+    "nombre": "Salón MERLIN",
+    "telefono": "+591 65567153",
+    "imagen": "imagensalones/SalonMerlin.jpg",
+    "maps": "https://maps.app.goo.gl/UxUbM9fEME6Sxkxo9",
+    "direccion": "Zona Elizardo, Alejandro Perez"
+  },
+  {
+    "nombre": "Salón Kids Hakuna Matata",
+    "telefono": "+591 65627271",
+    "imagen": "imagensalones/SalonHakuna.jpg",
+    "maps": "https://maps.app.goo.gl/WZNmkD31yXMG66ri7",
+    "direccion": "Carr. a Viacha, Av. Union, C Dolores F"
+  },
+  {
+    "nombre": "Salón Pequeño Gigante",
+    "telefono": "+591 71261237",
+    "imagen": "imagensalones/SalonDiversos.jpg",
+    "maps": "https://maps.app.goo.gl/LEaVZgucxLFpS5nKA",
+    "direccion": "Av. Juan Pablo II, C. Nisthaus"
+  }
+]
