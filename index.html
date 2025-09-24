@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KinderFiesta</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+  <h1>KinderFiesta</h1>
+<button id="modeToggle" class="mode-toggle">
+  <span class="icon sun">☀️</span>
+  <span class="icon moon">🌙</span>
+</button>
+
+</header>
+  <div class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar salón..." />
+</div>
+
+  <main class="container">
+    <section id="salonesList" class="grid"></section>
+  </main>
+
+  <!-- Modal detalle -->
+  <div id="detalleModal" class="modal hidden" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close" id="closeModal">✕</button>
+      <div id="detalle"></div>
+    </div>
+  </div>
+
+  <!-- Admin modal -->
+  <div id="adminModal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close" id="closeAdmin">✕</button>
+      <h2>Panel de Moderación</h2>
+      <label>Contraseña admin:</label>
+      <input id="adminPass" type="password" placeholder="password"/>
+      <button id="loginAdmin">Ingresar</button>
+      <div id="adminArea" class="hidden">
+        <p>Lista de comentarios (eliminar):</p>
+        <ul id="adminComments"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  
+  <body>
+
+  <script src="app.js"></script>
+</body>
+
+</body>
+</html>
